@@ -1,0 +1,30 @@
+# Виключити з Docker образу:
+
+# Git
+.git
+.gitignore
+
+# Node modules (встановлюються всередині Dockerfile)
+node_modules
+*/node_modules
+
+# Конфігурація середовища (секрети!)
+.env*
+*.local
+
+# TypeScript вихідний код (у production не потрібен — є dist/)
+src
+
+# Документація і тести (не потрібні у production)
+docs
+**/__tests__
+jest.config.js
+coverage
+
+# Логи
+*.log
+npm-debug.log*
+
+# OS файли
+.DS_Store
+Thumbs.db
