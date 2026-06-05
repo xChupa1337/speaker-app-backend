@@ -13,7 +13,6 @@ node_modules
 *.local
 
 # TypeScript вихідний код (у production не потрібен — є dist/)
-src
 
 # Документація і тести (не потрібні у production)
 docs
